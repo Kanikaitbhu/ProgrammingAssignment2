@@ -29,5 +29,5 @@ cacheSolve <- function(matrix, ...) {
   inverse<- solve(data, ...)
   matrix$setinverse(inverse)
   inverse
-  ## Return a matrix that is the inverse of 'x'
+  ## Return a matrix that is the inverse of 'Matrix'
 }
